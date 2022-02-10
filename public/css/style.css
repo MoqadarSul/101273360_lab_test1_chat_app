@@ -1,0 +1,62 @@
+
+a {
+	text-decoration: none;
+}
+.chat-messages {
+	padding: 30px;
+	max-height: 500px;
+	overflow-y: scroll;
+}
+.message{
+	background-color: grey;
+}
+.username{
+	color: white;
+	font-weight: 400;
+}
+.text{
+	font-size: 1.2em;
+	
+}
+.timeStamp{
+	text-decoration: underline;
+	color:white
+}
+
+.chat-form-container {
+	padding: 20px 30px;
+	width: 70%;
+	margin: auto;
+	background-color: var(--dark-color-a);
+}
+
+.chat-form-container form {
+	display: flex;
+}
+
+.chat-form-container input[type='text'] {
+	font-size: 16px;
+	padding: 5px;
+	height: 40px;
+	flex: 1;
+}
+
+.chat-appwidth{
+	width: 70%;
+	margin: auto;
+}
+.chat_header{
+	width: 70%;
+	margin: auto;
+}
+.chatRoomName{
+	width: 50%;
+	margin: auto;
+	align-items: center;
+	text-align: center;
+}
+.chatSelection{
+	width: 70%;
+	margin: auto;
+	background-color: grey;
+}
